@@ -1,0 +1,27 @@
+.middle {
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.filler {
+    width: 100vw;
+    height: 100vh;
+}
+
+.redirect-btn {
+    background: white;
+    color: black;
+    padding: 0.8rem 1.33rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 2.33rem;
+}
+.redirect-h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
