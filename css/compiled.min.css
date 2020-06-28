@@ -164,8 +164,9 @@ li {
     -ms-flex-pack: center;
     justify-content: center;
     min-height: 28rem;
-    width: 50vw;
-    margin: 0 5.5vw;
+    width: auto;
+    margin: 0;
+    text-align: center;
     position: relative;
     cursor: pointer;
     justify-self: center;
@@ -180,6 +181,7 @@ li {
 
 .enlarge img {
     width: 25rem;
+    text-align: center;
 }
 .project {
     transition: box-shadow 0.2s ease;
@@ -261,7 +263,7 @@ li {
     }
     .project {
         width: 30vw;
-        margin: 0 15vw;
+        margin: 0 auto;
     }
 }
 @media (min-width: 1100px) {
@@ -336,5 +338,25 @@ textarea {
     }
     input[type='submit'] {
         font-size: 1.8rem;
+    }
+}
+@media (max-width: 650px) {
+    .project {
+        margin: 0 auto;
+        width: 15rem;
+        margin: 0 15vw;
+    }
+    .project img {
+        width: 10rem;
+    }
+}
+@media (max-width: 750px) {
+    .project {
+        margin: 0 auto;
+        width: 15rem;
+        margin: 0 18vw;
+    }
+    .project img {
+        width: 12rem;
     }
 }
