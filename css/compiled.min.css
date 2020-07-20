@@ -343,8 +343,8 @@ textarea {
 @media (max-width: 650px) {
     .project {
         margin: 0 auto;
-        width: 15rem;
-        margin: 0 15vw;
+        width: 20rem;
+        margin: 0 7.5vw;
     }
     .project img {
         width: 10rem;
