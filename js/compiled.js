@@ -46,7 +46,7 @@ window.addEventListener("blur", () => {
 
 const links = document.querySelectorAll("li");
 
-links.forEach(link => {
+links.forEach((link) => {
     link.addEventListener("click", () => {
         if (document.querySelector(".toggler").checked) {
             document.querySelector(".toggler").checked = false;
@@ -55,13 +55,13 @@ links.forEach(link => {
 });
 
 // auto-scrolling to location of element when link is clicked
-const setLink = name => {
+const setLink = (name) => {
     document.querySelector(`#${name}`).addEventListener("click", () => {
         window.scrollTo({
             top:
                 document.querySelector(`#${name}Loc`).getBoundingClientRect()
                     .top + window.scrollY,
-            behavior: "smooth"
+            behavior: "smooth",
         });
     });
 };
